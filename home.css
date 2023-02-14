@@ -1,0 +1,312 @@
+.body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("./imgs/home.jpg");
+}
+
+/*top*/
+.top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/*top row*/
+
+.home {
+  margin-top: 15px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "SF Pro Icons", "Apple Legacy Icons",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.home-a:hover {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.home-a {
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  display: flex;
+  flex-direction: row;
+}
+.aboutme {
+  margin-top: 15px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "SF Pro Icons", "Apple Legacy Icons",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.aboutme-a {
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  display: flex;
+  flex-direction: row;
+}
+.aboutme-a:hover {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.roadmaps {
+  margin-top: 15px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "SF Pro Icons", "Apple Legacy Icons",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.roadmaps-a {
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  display: flex;
+  flex-direction: row;
+}
+.roadmaps-a:hover {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.resources {
+  margin-top: 15px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "SF Pro Icons", "Apple Legacy Icons",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.resources-a {
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  display: flex;
+  flex-direction: row;
+}
+.resources-a:hover {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.registration {
+  margin-top: 15px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "SF Pro Icons", "Apple Legacy Icons",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.registation-a {
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  display: flex;
+  flex-direction: row;
+}
+.registation-a:hover {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+/*Middle*/
+.middle-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.middle-name:hover {
+  transition: 0.3s;
+  font-size: 43px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 5px 2px -5px rgb(255, 255, 255);
+}
+
+/*Middle txt*/
+
+.middle-txt-sizes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.middle-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  color: white;
+  font-size: 15px;
+  line-height: 1.16667;
+  font-weight: 600;
+  letter-spacing: 0.009em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.middle-txt:hover {
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* TEST */
+
+.test2 {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.test2::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.test2:hover::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  display: block;
+}
+/*Test Was succccsessssfullllllll*/
+
+/*second test*/
+.test10 {
+  margin-left: 15%;
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 200px;
+  width: 70%;
+  height: 100px;
+  color: white;
+  border: solid;
+}
+
+/* PNGs Social Media */
+
+.socialmedia {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.pngsize {
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+/*additional*/
+
+.additional {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5vh;
+  height: 30vh;
+}
+
+.front {
+  width: 40%;
+}
+.back {
+  width: 40%;
+}
+
+.front1 {
+  width: 100px;
+  height: 100px;
+}
+.front1:hover {
+  transition: 0.3s;
+  width: 115px;
+  height: 115px;
+}
+
+.back1 {
+  width: 100px;
+  height: 100px;
+}
+.back1:hover {
+  transition: 0.3s;
+  width: 115px;
+  height: 115px;
+}
+
+.frontxt {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "SF Pro Icons", "Apple Legacy Icons",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.frontxt:hover {
+  transition: 0.3s;
+  font-size: 30px;
+}
+
+.backtxt {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "SF Pro Icons", "Apple Legacy Icons",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.backtxt:hover {
+  transition: 0.3s;
+  font-size: 30px;
+}

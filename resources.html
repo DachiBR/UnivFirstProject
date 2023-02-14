@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DMSP</title>
+    <link rel="stylesheet" href="./resources.css" />
+  </head>
+
+  <body class="body">
+    <div class="top">
+      <div class="home">
+        <buttton class="test2"
+          ><a href="./home.html" class="home-a">Home</a></buttton
+        >
+      </div>
+      <div class="aboutme">
+        <buttton class="test2"
+          ><a href="./roadmaps.html" class="roadmaps-a">Roadmaps</a></buttton
+        >
+      </div>
+      <div class="resources">
+        <buttton class="test2"
+          ><a href="./resources.html" class="resources-a">Resources</a></buttton
+        >
+      </div>
+      <div class="registration">
+        <buttton class="test2"
+          ><a href="./registration.html" class="registation-a"
+            >Log In</a
+          ></buttton
+        >
+      </div>
+    </div>
+
+    <div class="over">
+      <div class="searchengineme">
+        <input
+          type="text"
+          id="myInput"
+          onkeyup="myFunction()"
+          placeholder="Search"
+          class="searchengine"
+        />
+      </div>
+
+      <table id="myTable" class="table">
+        <!--First header-->
+        <tr class="header">
+          <th style="width: 25vw; color: turquoise">Names</th>
+          <th style="width: 25vw; color: rgb(64, 181, 224)">Books</th>
+          <th style="width: 25vw; color: rgb(138, 176, 222)">Videos</th>
+          <th style="width: 25vw; color: rgb(176, 201, 207)">Courses</th>
+        </tr>
+
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">HTML</td>
+          <td>
+            <a
+              href="./PDFS/HTML and CSS Design and Build Websites (Jon Duckett) (z-lib.org).pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About HTML</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=kUMe1FH4CHE"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About HTML</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.codecademy.com/learn/paths/web-development"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/html.webp"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">CSS</td>
+          <td>
+            <a
+              href="./PDFS/HTML and CSS Design and Build Websites (Jon Duckett) (z-lib.org).pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About CSS</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=OXGznpKZ_sA"
+              style="color: white; text-decoration: none; text-decoration: none"
+              target="_blank"
+              >Video About CSS</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.codecademy.com/learn/paths/web-development"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/css.webp"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">JavaScript</td>
+          <td>
+            <a
+              href="./PDFS/Head First JavaScript (Michael Morrison) (z-lib.org).pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About JS</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=PkZNo7MFNFg"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About JS</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.codecademy.com/learn/paths/web-development"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/javascript.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">Python</td>
+          <td>
+            <a
+              href="./PDFS/Python by Example - Learning to Program in 150 Challenges by Nichola Lacey (z-lib.org).pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About Python</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=rfscVS0vtbw"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About Python</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/course/python-the-complete-python-developer-course"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/python.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">Java</td>
+          <td>
+            <a
+              href="./PDFS/LearnJava.pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About Java</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=A74TOX803D0"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About Java</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/topic/Java"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/java.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">C</td>
+          <td>
+            <a
+              href="./PDFS/Stephen Prata C Primer Plus  2013.pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About C</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=KJgsSFOSQv0&t=8703s"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About C</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.codecademy.com/catalog/language/c"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/C.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">C++</td>
+          <td>
+            <a
+              href="./PDFS/Modern C++ for Absolute Beginners A Friendly Introduction to C++ Programming Language and C++11 to C++20 Standards (Slobodan Dmitrović) (z-lib.org).pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About C++</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=vLnPwxZdW4Y&t=4s"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About C++</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/course/beginning-c-plus-plus-programming"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/C++.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">C#</td>
+          <td>
+            <a
+              href="./PDFS/ProgramacionC#.pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About C#</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=GhQdlIFylQ8"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About C#</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.codecademy.com/learn/learn-c-sharp"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/Csharp.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">PHP</td>
+          <td>
+            <a
+              href="./PDFS/Learning_PHP_7_-_Antonio_Lopez.pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About PHP</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=OK_JCtrrv-c"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About PHP</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/course/php-for-complete-beginners-includes-msql-object-oriented/"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/php.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">React</td>
+          <td>
+            <a
+              href="./PDFS/react-beginners-handbook.pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About React</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=bMknfKXIFA8"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About React</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/course/react-js-basics-to-advanced"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/react.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">Angular</td>
+          <td>
+            <a
+              href="./PDFS/angular7_tutorial.pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About Angular</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=3qBXWUpoPHo"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About Angular</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/course/the-complete-guide-to-angular-2/"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/angular.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">Node.JS</td>
+          <td>
+            <a
+              href="./PDFS/nodejs.pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About Node.JS</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=Oe421EPjeBE"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About Node.JS</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/nodejs.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">GO</td>
+          <td>
+            <a
+              href="./PDFS/The.Go.Programming.Language.pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About GO</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=jFfo23yIWac"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About GO</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/course/go-the-complete-developers-guide"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/go.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">Rust</td>
+          <td>
+            <a
+              href="./PDFS/rust.pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About Rust</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=MsocPEZBd-M"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About Rust</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/course/rust-programming-the-complete-guide"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/rust.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">Ruby</td>
+          <td>
+            <a
+              href="./PDFS/The Ruby Programming Language - Oreilly.pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About Ruby</a
+            >
+          </td>
+          <td>
+            <a
+              href="hhttps://www.youtube.com/watch?v=t_ispmWmdjY"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About Ruby</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/ruby.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+        <!--Rows-->
+
+        <tr>
+          <td style="color: white">Assembly</td>
+          <td>
+            <a
+              href="./PDFS/Modern X86 Assembly Language Programming Covers x86 64-bit, AVX, AVX2, and AVX-512 (Daniel Kusswurm) (z-lib.org).pdf"
+              download
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Book About Assembly</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.youtube.com/watch?v=gfmRrPjnEw4"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              >Video About Assembly</a
+            >
+          </td>
+          <td>
+            <a
+              href="https://www.udemy.com/course/x86-assembly-language-programming-masters-course"
+              style="color: white; text-decoration: none"
+              target="_blank"
+              ><img
+                src="./resourcesimgs/assembly.png"
+                alt=""
+                style="width: 30px; height: 30px"
+            /></a>
+          </td>
+        </tr>
+      </table>
+
+      <script src="./js/script.js"></script>
+    </div>
+    <div class="socialmedia">
+      <a href="https://www.facebook.com/dachi.bregadze78/" target="_blank"
+        ><input
+          class="pngsize"
+          type="image"
+          id="myimage"
+          src="./pngs/facebookTST.png"
+      /></a>
+      <a href="https://www.instagram.com/bregadze28/" target="_blank"
+        ><input
+          class="pngsize"
+          type="image"
+          id="myimage"
+          src="./pngs/instagrampng1.png"
+      /></a>
+      <a href="https://www.linkedin.com/in/bregadze28/" target="_blank"
+        ><input
+          class="pngsize"
+          type="image"
+          id="myimage"
+          src="./pngs/linktst.png"
+      /></a>
+      <a href="https://github.com/DachiBR" target="_blank"
+        ><input
+          class="pngsize"
+          type="image"
+          id="myimage"
+          src="./pngs/GitHub-Mark-Light-120px-plus.png"
+      /></a>
+    </div>
+  </body>
+</html>
